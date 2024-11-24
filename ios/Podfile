@@ -5,7 +5,7 @@ require Pod::Executable.execute_command('node', ['-p',
     {paths: [process.argv[1]]},
   )', __dir__]).strip
 
-platform :ios, min_ios_version_supported
+platform :ios, '12.0' # Minimum iOS sürümü
 prepare_react_native_project!
 
 linkage = ENV['USE_FRAMEWORKS']
@@ -23,18 +23,23 @@ target 'IslamicApp' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
+  # Lottie kütüphaneleri ekleniyor
+  pod 'lottie-ios', '~> 4.5.0'
+  pod 'lottie-react-native', :path => '../node_modules/lottie-react-native'
+
   target 'IslamicAppTests' do
     inherit! :complete
     # Pods for testing
   end
 
-  post_install do |installer|
-    # https://github.com/facebook/react-native/blob/main/packages/react-native/scripts/react_native_pods.rb#L197-L202
-    react_native_post_install(
-      installer,
-      config[:reactNativePath],
-      :mac_catalyst_enabled => false,
-      # :ccache_enabled => true
-    )
-  end
-end
+end # IslamicApp target sonu
+
+post_install do |installer|
+  # React Native post install script
+  react_native_post_install(
+    installer,
+    config[:reactNativePath],
+    :mac_catalyst_enabled => false,
+    # :ccache_enabled => true
+  )
+end # post_install sonu

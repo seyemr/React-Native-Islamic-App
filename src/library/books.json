@@ -1,0 +1,64 @@
+{
+  "books": [
+    {
+      "id": "0",
+      "title": "Kur'an-ı Kerim",
+      "image_url": "https://png.pngtree.com/png-clipart/20231017/original/pngtree-al-quran-book-3d-illustration-png-image_13328618.png"
+    },
+    {
+      "id":"1",
+      "title":"Kur'an-ı Kerim Tefsiri",
+      "image_url":"https://cdn.kibo.com.tr/kibo/2/7/6/594367.png"
+    },
+    {
+      "id": "2",
+      "title": "Riyazü’s Salihin",
+      "image_url": "https://ideacdn.net/idea/hk/61/myassets/products/026/720x720-riyazus.jpg?revision=1714375274"
+    },
+    {
+      "id": "3",
+      "title": "İmam Gazali – İhya-u Ulumuddin",
+      "image_url": "https://cdn2.dokuzsoft.com/u/salihkitaplar/img/c/i/h/ihya-semerkand-1560780256.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Kaside-i Bürde",
+      "image_url": "https://www.ahiskayayinevi.com/kasidei-burde-tercumesi-dua-kitaplari-kitapkalbi-yayincilik-imam-muhammed-bin-said-el-busayri-5868-15-B.jpg"
+    },
+    {
+      "id": "5",
+      "title": "El-Muvatta",
+      "image_url": "https://www.kayihanyayinlari.com/img/products/small/muvatta-takim-kapak_26.12.2022_65835f3.png"
+    },
+    {
+      "id": "6",
+      "title": "Kutub-u Sitte",
+      "image_url": "https://www.karincakitap.net/u/karincakitap/img/c/k/u/kutub-i-sitte-muhtasari-6-kitap-takimcdc3bd113ac91e484b72a9a3845e3310.png"
+    },
+    {
+      "id": "7",
+      "title": "Tezkiretü’l-Evliya",
+      "image_url": "https://www.salihkitaplar.com/u/salihkitaplar/img/c/t/e/tezki-1646481753.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Fıkh-ı Ekber",
+      "image_url": "https://www.istanbulkitapcisi.com/fikh-i-ekber-aliyyil-kari-serhi-diger-cagri-yayinlari-imam-azam-647838-62-B.jpg"
+    },
+    {
+      "id": "9",
+      "title": "Mektubat-ı Rabbani",
+      "image_url": "https://platincdn.com/367/pictures/20141128162714_mektubati_rabbani_2_cilt_merve_gonca_kitap.jpg"
+    },
+    {
+      "id": "10",
+      "title": "Şifa-i Şerif",
+      "image_url": "https://www.salihkitaplar.com/u/salihkitaplar/img/c/s/i/sifai-ssifa-1731259450.webp"
+    },
+    {
+      "id": "11",
+      "title": "Cevahir-i Kur'an",
+      "image_url": "https://www.kitapkalbi.com/resimler/62910/thumb/kuranin-cevherleri-cevahirul-kuran.webp"
+    }
+  ]
+}
